@@ -1,0 +1,2352 @@
+{
+	"info": {
+		"_postman_id": "74bab18c-f45d-490d-8b97-2da22684dfbb",
+		"name": "Partner Rediseño PRODUCCION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33327765"
+	},
+	"item": [
+		{
+			"name": "FnTimeline",
+			"item": [
+				{
+					"name": "TimeLine-Config",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Ex_I6d8OdnYy2tioOMXWzU_KRyYfZPHT1yWlJVXjxBPtAzFuF61eZA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "362806ae-9168-4da8-3ff1-08da24a7fa4f",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-config/GetById",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-config",
+										"GetById"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetByRtAccount",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Ex_I6d8OdnYy2tioOMXWzU_KRyYfZPHT1yWlJVXjxBPtAzFuF61eZA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "rt_account",
+											"value": "65",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-config/GetByRtAccount",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-config",
+										"GetByRtAccount"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Ex_I6d8OdnYy2tioOMXWzU_KRyYfZPHT1yWlJVXjxBPtAzFuF61eZA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-config/GetAll",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-config",
+										"GetAll"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Ex_I6d8OdnYy2tioOMXWzU_KRyYfZPHT1yWlJVXjxBPtAzFuF61eZA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Prueba Add in Azure table storage",
+											"type": "text"
+										},
+										{
+											"key": "rt_accounts",
+											"value": "98888",
+											"type": "text"
+										},
+										{
+											"key": "id_employee_log",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-config/Add",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-config",
+										"Add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Ex_I6d8OdnYy2tioOMXWzU_KRyYfZPHT1yWlJVXjxBPtAzFuF61eZA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "5F2175CB-86D0-49B0-7B69-08DA271E4483",
+											"type": "text"
+										},
+										{
+											"key": "name",
+											"value": "Prueba Add/Update Azure",
+											"type": "text"
+										},
+										{
+											"key": "rt_accounts",
+											"value": "999999",
+											"type": "text"
+										},
+										{
+											"key": "state",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-config/Update",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-config",
+										"Update"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Posts",
+					"item": [
+						{
+							"name": "GetByIdTimeline",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "KzepKqYxpkLB6BLA54vRPNYboHtUFxpMud79Yn5rcycRAzFuifV8NA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_timeline",
+											"value": "d8e9d060-d44d-4ded-b19e-0e8894ea9be1",
+											"type": "text"
+										},
+										{
+											"key": "id_last_post",
+											"value": "",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-timeline-posts/GetByIdTimeline",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-timeline-posts",
+										"GetByIdTimeline"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetById",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "KzepKqYxpkLB6BLA54vRPNYboHtUFxpMud79Yn5rcycRAzFuifV8NA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id",
+											"value": "d434998f-1de1-490e-809b-d2faefef2360",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-timeline-posts/GetById",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-timeline-posts",
+										"GetById"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "KzepKqYxpkLB6BLA54vRPNYboHtUFxpMud79Yn5rcycRAzFuifV8NA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "content",
+											"value": "PruebaUSERSALVADOR😱",
+											"type": "text"
+										},
+										{
+											"key": "id_timeline",
+											"value": "7cad9233-29f2-408f-9901-856f8d35c2eb",
+											"type": "text"
+										},
+										{
+											"key": "id_employee_log",
+											"value": "1192",
+											"type": "text"
+										},
+										{
+											"key": "employee_log",
+											"value": "HERNANDEZ, JOSE OMAR",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-timeline-posts/Add",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-timeline-posts",
+										"Add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "KzepKqYxpkLB6BLA54vRPNYboHtUFxpMud79Yn5rcycRAzFuifV8NA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "content",
+											"value": "post modificado",
+											"type": "text"
+										},
+										{
+											"key": "id_post",
+											"value": "B3B9753F-D9D9-4563-D698-08DA2722CCDE",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-timeline-posts/Update",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-timeline-posts",
+										"Update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "KzepKqYxpkLB6BLA54vRPNYboHtUFxpMud79Yn5rcycRAzFuifV8NA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_post",
+											"value": "B3B9753F-D9D9-4563-D698-08DA2722CCDE",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-timeline-posts/Delete",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-timeline-posts",
+										"Delete"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comments",
+					"item": [
+						{
+							"name": "GetCommentsByIdPost",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "7TlMoUteGVmqQ8SN3l601WcvzSKT6CWyWXhAq-STbdtEAzFuykSz5w==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_post",
+											"value": "7AAA78B0-ADAA-4ED3-E174-08DA24A94FD0",
+											"type": "text"
+										},
+										{
+											"key": "id_last_comment",
+											"value": "",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-comments/GetCommentsByIdPost",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-comments",
+										"GetCommentsByIdPost"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetCountCommentsByIdPost",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "7TlMoUteGVmqQ8SN3l601WcvzSKT6CWyWXhAq-STbdtEAzFuykSz5w==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_post",
+											"value": "9EA2F3DD-FF0E-4C97-4635-08DAA23E954B",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-comments/GetCountCommentsByIdPost",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-comments",
+										"GetCountCommentsByIdPost"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAllByIdComment",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "7TlMoUteGVmqQ8SN3l601WcvzSKT6CWyWXhAq-STbdtEAzFuykSz5w==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_comment",
+											"value": "46F612E6-82BF-43C7-ADAA-08DA24AAFC7D",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-comments/GetAllByIdComment",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-comments",
+										"GetAllByIdComment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "7TlMoUteGVmqQ8SN3l601WcvzSKT6CWyWXhAq-STbdtEAzFuykSz5w==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "content",
+											"value": "Otro comentario de prueba",
+											"type": "text"
+										},
+										{
+											"key": "id_post",
+											"value": "7AAA78B0-ADAA-4ED3-E174-08DA24A94FD0",
+											"type": "text"
+										},
+										{
+											"key": "id_parent_comment",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "id_employee_log",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "employee_log",
+											"value": "Luis Sotelo",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-comments/Add",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-comments",
+										"Add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "7TlMoUteGVmqQ8SN3l601WcvzSKT6CWyWXhAq-STbdtEAzFuykSz5w==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "content",
+											"value": "Comentario editado",
+											"type": "text"
+										},
+										{
+											"key": "id_comment",
+											"value": "A29C9352-7ABF-4B95-0400-08DA2721133A",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-comments/Update",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-comments",
+										"Update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "7TlMoUteGVmqQ8SN3l601WcvzSKT6CWyWXhAq-STbdtEAzFuykSz5w==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_comment",
+											"value": "A29C9352-7ABF-4B95-0400-08DA2721133A",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-comments/Delete",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-comments",
+										"Delete"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Likes",
+					"item": [
+						{
+							"name": "GetLikesCountByIdPost",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "XpZBd98pWdKuJHsfeO9qZGXwNm6TcehswMasRgtsWOpOAzFuCv7jnw==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_post",
+											"value": "7AAA78B0-ADAA-4ED3-E174-08DA24A94FD0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-likes/GetLikesCountByIdPost",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-likes",
+										"GetLikesCountByIdPost"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetLikesByIdPost",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "XpZBd98pWdKuJHsfeO9qZGXwNm6TcehswMasRgtsWOpOAzFuCv7jnw==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_post",
+											"value": "a2d20f77-a482-4306-d492-08da29fec539",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-likes/GetLikesByIdPost",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-likes",
+										"GetLikesByIdPost"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetLikesCountByIdComment",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "XpZBd98pWdKuJHsfeO9qZGXwNm6TcehswMasRgtsWOpOAzFuCv7jnw==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_comment",
+											"value": "9D172571-823E-47C7-ADA5-08DA24AAFC7D",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-likes/GetLikesCountByIdComment",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-likes",
+										"GetLikesCountByIdComment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetLikesByIdComment",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "XpZBd98pWdKuJHsfeO9qZGXwNm6TcehswMasRgtsWOpOAzFuCv7jnw==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "id_comment",
+											"value": "9D172571-823E-47C7-ADA5-08DA24AAFC7D",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-likes/GetLikesByIdComment",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-likes",
+										"GetLikesByIdComment"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "SaveLike",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "XpZBd98pWdKuJHsfeO9qZGXwNm6TcehswMasRgtsWOpOAzFuCv7jnw==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"IdPost\":\"492E27EA-C04F-4284-2A89-08DA8C5DAF4E\",\r\n    \"IdComment\":\"\",\r\n    \"IdEmployeeLog\":\"1192\",\r\n    \"EmployeeLog\":\"HERNANDEZ, JOSE OMAR\",\r\n    \"State\":\"1\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-timeline-likes/SaveLike",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-timeline-likes",
+										"SaveLike"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "FnBlogLucy",
+			"item": [
+				{
+					"name": "Hashtags",
+					"item": [
+						{
+							"name": "getasync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "xAlgvi9RT2RdmI1UcQf7CmUnjrKwvmTBP8zpxkWO6GmRAzFugwlwMw==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idsPaises",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "estado",
+											"value": "true",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-bloglucy-hashtags/getasync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-bloglucy-hashtags",
+										"getasync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getidasync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "xAlgvi9RT2RdmI1UcQf7CmUnjrKwvmTBP8zpxkWO6GmRAzFugwlwMw==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idHashtag",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-bloglucy-hashtags/getidasync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-bloglucy-hashtags",
+										"getidasync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "InsertAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "xAlgvi9RT2RdmI1UcQf7CmUnjrKwvmTBP8zpxkWO6GmRAzFugwlwMw==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"tituloHashtag\": \"#PruebaOtra\",\r\n    \"idPais\": 4,\r\n    \"pais\": \"Colombia\",\r\n    \"estadoRegistro\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-bloglucy-hashtags/InsertAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-bloglucy-hashtags",
+										"InsertAsync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "xAlgvi9RT2RdmI1UcQf7CmUnjrKwvmTBP8zpxkWO6GmRAzFugwlwMw==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"idHashtag\":\"44\",\r\n    \"tituloHashtag\": \"#PruebaOtraEditado\",\r\n    \"idPais\": 4,\r\n    \"pais\": \"Colombia\",\r\n    \"estadoRegistro\": true\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-bloglucy-hashtags/UpdateAsync?idHashtag=44",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-bloglucy-hashtags",
+										"UpdateAsync"
+									],
+									"query": [
+										{
+											"key": "idHashtag",
+											"value": "44"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "InactivateAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "xAlgvi9RT2RdmI1UcQf7CmUnjrKwvmTBP8zpxkWO6GmRAzFugwlwMw==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idHashtag",
+											"value": "44",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-bloglucy-hashtags/InactivateAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-bloglucy-hashtags",
+										"InactivateAsync"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "FnConfigMenus",
+			"item": [
+				{
+					"name": "GetMenuWeb",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "ZZ92-IF59Ads2zRhLl9oiQk4n7dnWzAigAy3gY4buBz2AzFuhWPcQg==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "IdPerfil",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "IdModulo",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/rosterMenu/GetMenuWeb",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"rosterMenu",
+								"GetMenuWeb"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FnRosterPerfil",
+			"item": [
+				{
+					"name": "ChangePasswordUsuarioGuest",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "FltVRtE4fEVdglUixrq5N3OkeCb_lgFN6xJwNQWeSW0JAzFujT3-vQ==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "idEmpleado",
+									"value": "47624",
+									"type": "text"
+								},
+								{
+									"key": "newPassword",
+									"value": "Onelink2020",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/rosterEmpleado/ChangePasswordUsuarioGuest",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"rosterEmpleado",
+								"ChangePasswordUsuarioGuest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RegistrarLogin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "FltVRtE4fEVdglUixrq5N3OkeCb_lgFN6xJwNQWeSW0JAzFujT3-vQ==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "idEmpleado",
+									"value": "67919",
+									"type": "text"
+								},
+								{
+									"key": "ip",
+									"value": "131.100.141.230",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/rosterEmpleado/RegistrarLogin",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"rosterEmpleado",
+								"RegistrarLogin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPerfilByUsuarioDominio",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "FltVRtE4fEVdglUixrq5N3OkeCb_lgFN6xJwNQWeSW0JAzFujT3-vQ==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "usuario",
+									"value": "john.reyes",
+									"type": "text"
+								},
+								{
+									"key": "dominio",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/rosterEmpleado/ObtenerPerfilByUsuarioDominio",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"rosterEmpleado",
+								"ObtenerPerfilByUsuarioDominio"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FnAuth",
+			"item": [
+				{
+					"name": "AuthUserADAndGuest",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "pfyKpCpSvqqm8JE6NPUTiiE0vmXDScSUKDavlXXS3UGdAzFuoK2OHA==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "user",
+									"value": "luis.sotelo",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "Webhelp2022**",
+									"type": "text"
+								},
+								{
+									"key": "dominio",
+									"value": "GETCOMCO",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-auth/AuthUserADAndGuest",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"partner-fn-auth",
+								"AuthUserADAndGuest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetDominios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "pfyKpCpSvqqm8JE6NPUTiiE0vmXDScSUKDavlXXS3UGdAzFuoK2OHA==",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-auth/GetDominios",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"partner-fn-auth",
+								"GetDominios"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FnNoticias",
+			"item": [
+				{
+					"name": "Noticias",
+					"item": [
+						{
+							"name": "ObtenerNoticiaId",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "ts_IrbryG9nD_p7qxmDC25r6oyJ9OZIVlL4SpyoyPYidAzFum8aEoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idNoticia",
+											"value": "4797",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-noticias-get/ObtenerNoticiaId",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-noticias-get",
+										"ObtenerNoticiaId"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerNoticiasMembresiaFecha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "ts_IrbryG9nD_p7qxmDC25r6oyJ9OZIVlL4SpyoyPYidAzFum8aEoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idMembresia",
+											"value": "14",
+											"type": "text"
+										},
+										{
+											"key": "fecha",
+											"value": "2022-09-30",
+											"type": "text"
+										},
+										{
+											"key": "tipo",
+											"value": "1,2,3",
+											"type": "text"
+										},
+										{
+											"key": "limite",
+											"value": "10",
+											"type": "text"
+										},
+										{
+											"key": "idLast",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-noticias-get/ObtenerNoticiasMembresiaFecha",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-noticias-get",
+										"ObtenerNoticiasMembresiaFecha"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerNoticiasImportantesPopup",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "ts_IrbryG9nD_p7qxmDC25r6oyJ9OZIVlL4SpyoyPYidAzFum8aEoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "1109",
+											"type": "text"
+										},
+										{
+											"key": "idMembresia",
+											"value": "14",
+											"type": "text"
+										},
+										{
+											"key": "fecha",
+											"value": "2022-09-30",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-noticias-get/ObtenerNoticiasImportantesPopup",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-noticias-get",
+										"ObtenerNoticiasImportantesPopup"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerNoticiasLucyPopup",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "ts_IrbryG9nD_p7qxmDC25r6oyJ9OZIVlL4SpyoyPYidAzFum8aEoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "1109",
+											"type": "text"
+										},
+										{
+											"key": "idMembresia",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "fecha",
+											"value": "2022-09-30",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-noticias-get/ObtenerNoticiasLucyPopup",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-noticias-get",
+										"ObtenerNoticiasLucyPopup"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "MarcarNoticiaVistaAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "ts_IrbryG9nD_p7qxmDC25r6oyJ9OZIVlL4SpyoyPYidAzFum8aEoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "1109",
+											"type": "text"
+										},
+										{
+											"key": "idNoticia",
+											"value": "4780",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-noticias-get/MarcarNoticiaVistaAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"fn-partner-noticias-get",
+										"MarcarNoticiaVistaAsync"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comments",
+					"item": [
+						{
+							"name": "ObtenerComentariosByNoticiaAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Z-kKLmx7oFQCAqRN5m3pun_UyK5Yp5x_D9pyLmRpStYlAzFuLDpFoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idNoticia",
+											"value": "4797",
+											"type": "text"
+										},
+										{
+											"key": "idPlataforma",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "idEmpleado",
+											"value": "83434",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-comments/ObtenerComentariosByNoticiaAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-comments",
+										"ObtenerComentariosByNoticiaAsync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "InsertarComentarioAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Z-kKLmx7oFQCAqRN5m3pun_UyK5Yp5x_D9pyLmRpStYlAzFuLDpFoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"idComentarioPadre\" : 0,\r\n\"idNoticia\" : 744,\r\n\"idEmpleado\" : 1109,\r\n\"nombreEmpleado\" : \"COLOCHO BAÑOS, MARIO ORLANDO\",\r\n\"comentario\" : \"prueba con functions\",\r\n\"createdAt\" : \"2022-08-31\",\r\n\"estado\" : 1,\r\n\"idPlataforma\" : 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-comments/InsertarComentarioAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-comments",
+										"InsertarComentarioAsync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ActualizarComentarioAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "Z-kKLmx7oFQCAqRN5m3pun_UyK5Yp5x_D9pyLmRpStYlAzFuLDpFoQ==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"idComentario\":872,\r\n\"idComentarioPadre\" : 0,\r\n\"idNoticia\" : 744,\r\n\"idEmpleado\" : 1109,\r\n\"nombreEmpleado\" : \"COLOCHO BAÑOS, MARIO ORLANDO\",\r\n\"comentario\" : \"prueba con functions editar\",\r\n\"createdAt\" : \"2022-08-31\",\r\n\"estado\" : 1,\r\n\"idPlataforma\" : 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-comments/ActualizarComentarioAsync/?idComentario=872",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-comments",
+										"ActualizarComentarioAsync",
+										""
+									],
+									"query": [
+										{
+											"key": "idComentario",
+											"value": "872"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "InactivarComentarioAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "Z-kKLmx7oFQCAqRN5m3pun_UyK5Yp5x_D9pyLmRpStYlAzFuLDpFoQ==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "1db8ad86e1f7461698d0c5181e7186de",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-comments/InactivarComentarioAsync/?idComentario=872",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-comments",
+										"InactivarComentarioAsync",
+										""
+									],
+									"query": [
+										{
+											"key": "idComentario",
+											"value": "872"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerCantComentariosByMembresiaAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "x-functions-key",
+										"value": "Z-kKLmx7oFQCAqRN5m3pun_UyK5Yp5x_D9pyLmRpStYlAzFuLDpFoQ==",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idMembresia",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "fecha",
+											"value": "2022-09-30",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-comments/ObtenerCantComentariosByMembresiaAsync/",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-comments",
+										"ObtenerCantComentariosByMembresiaAsync",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Likes",
+					"item": [
+						{
+							"name": "ActivarDesactivarLikeAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "N_wsZYoU8VnAnNcRA6yBcApliYdgto9BO0o51dZxmDiNAzFuTq_jTA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "71456",
+											"type": "text"
+										},
+										{
+											"key": "idNoticia",
+											"value": "4796",
+											"type": "text"
+										},
+										{
+											"key": "idPlataforma",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-viewslikes/ActivarDesactivarLikeAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-viewslikes",
+										"ActivarDesactivarLikeAsync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerEmpleadoLikeByNoticiaAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "N_wsZYoU8VnAnNcRA6yBcApliYdgto9BO0o51dZxmDiNAzFuTq_jTA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "71456",
+											"type": "text"
+										},
+										{
+											"key": "idNoticia",
+											"value": "4796",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-viewslikes/ObtenerEmpleadoLikeByNoticiaAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-viewslikes",
+										"ObtenerEmpleadoLikeByNoticiaAsync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerLikesMembresiaPorFecha",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "N_wsZYoU8VnAnNcRA6yBcApliYdgto9BO0o51dZxmDiNAzFuTq_jTA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idMembresia",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "fecha",
+											"value": "2022-09-30",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-viewslikes/ObtenerLikesMembresiaPorFecha",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-viewslikes",
+										"ObtenerLikesMembresiaPorFecha"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ActivarDesactivarLikePorComentarioAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "N_wsZYoU8VnAnNcRA6yBcApliYdgto9BO0o51dZxmDiNAzFuTq_jTA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "1109",
+											"type": "text"
+										},
+										{
+											"key": "idComentario",
+											"value": "866",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-viewslikes/ActivarDesactivarLikePorComentarioAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-viewslikes",
+										"ActivarDesactivarLikePorComentarioAsync"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Views",
+					"item": [
+						{
+							"name": "CrearViewByEmpleadoAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "N_wsZYoU8VnAnNcRA6yBcApliYdgto9BO0o51dZxmDiNAzFuTq_jTA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idEmpleado",
+											"value": "67919",
+											"type": "text"
+										},
+										{
+											"key": "idNoticia",
+											"value": "742",
+											"type": "text"
+										},
+										{
+											"key": "idPlataforma",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-viewslikes/CrearViewByEmpleadoAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-viewslikes",
+										"CrearViewByEmpleadoAsync"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ObtenerViewsMembresiaPorFechaAsync",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "875e7bccbdae45d7b0b27280931aa171",
+										"type": "text"
+									},
+									{
+										"key": "x-functions-key",
+										"value": "N_wsZYoU8VnAnNcRA6yBcApliYdgto9BO0o51dZxmDiNAzFuTq_jTA==",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idMembresia",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "fecha",
+											"value": "2022-09-30",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/partner-fn-noticias-viewslikes/ObtenerViewsMembresiaPorFechaAsync",
+									"protocol": "https",
+									"host": [
+										"apm-partner-serverless-v1-prod-wh-rg",
+										"azure-api",
+										"net"
+									],
+									"path": [
+										"partner-fn-noticias-viewslikes",
+										"ObtenerViewsMembresiaPorFechaAsync"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "FnLogActivities",
+			"item": [
+				{
+					"name": "InsertAsync",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "875e7bccbdae45d7b0b27280931aa171",
+								"type": "text"
+							},
+							{
+								"key": "x-functions-key",
+								"value": "r_wk-U5WEOzk1CasxfHN4jQzZ9lwXjtDUVhfPqjZ5KxhAzFu5sHGZA==",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"IdModulo\": 1,\r\n    \"Modulo\": \"Inicio\",\r\n    \"Accion\": \"Inicio\",\r\n    \"IdPais\": \"\",\r\n    \"Pais\": \"\",\r\n    \"IdCuenta\": \"\",\r\n    \"Cuenta\": \"\",\r\n    \"IdSite\": \"\",\r\n    \"Site\": \"\",\r\n    \"IdEmpleadoLog\": 67929,\r\n    \"EmpleadoLog\": 0,\r\n    \"EsAmbienteMovil\": 0\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apm-partner-serverless-v1-prod-wh-rg.azure-api.net/fn-partner-log-activities/InsertAsync",
+							"protocol": "https",
+							"host": [
+								"apm-partner-serverless-v1-prod-wh-rg",
+								"azure-api",
+								"net"
+							],
+							"path": [
+								"fn-partner-log-activities",
+								"InsertAsync"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

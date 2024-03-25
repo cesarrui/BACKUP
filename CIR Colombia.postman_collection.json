@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "8e62b003-a674-4f29-8ac8-6ab825fc0746",
+		"name": "CIR Colombia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33327765"
+	},
+	"item": [
+		{
+			"name": "ObtenerCertificados",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"CertificateName\":\"CertificadoIngresosRetenciones\",\r\n    \"FlowId\": \"67472b4c-64cd-4794-9bd4-236012734270\",\r\n    \"YearCertificate\": \"2022\" \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apm-common-v1-dev-ol.onelinkbpo.com/lucyapi/ObtenerCertificados",
+					"protocol": "https",
+					"host": [
+						"apm-common-v1-dev-ol",
+						"onelinkbpo",
+						"com"
+					],
+					"path": [
+						"lucyapi",
+						"ObtenerCertificados"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerDataCertificado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ContentLenght\": 0,\r\n    \"DocumentId\": \"1152439144\",\r\n    \"IncomingId\": \"261F499F-122D-41C2-9431-21E895668284\",\r\n    \"Year\": \"2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apm-publicapps-v1-pro-crd-hd.azure-api.net/LucyApi/ObtenerDataCertificado",
+					"protocol": "https",
+					"host": [
+						"apm-publicapps-v1-pro-crd-hd",
+						"azure-api",
+						"net"
+					],
+					"path": [
+						"LucyApi",
+						"ObtenerDataCertificado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener Respuesta Lucy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "texto",
+							"value": "2022",
+							"type": "text"
+						},
+						{
+							"key": "usuario",
+							"value": "{\"sessionId\":\"84944\",\"visual\":30720,\"idSite\":5,\"fromDB\":\"SAP\",\"tipoUsuario\":\"L\",\"source\":\"web\",\"conversationid\":\"e58dfbc8-0055-4d3c-941a-08d29d147988\",\"flowid\":null,\"isCX\":false,\"isFlow\":false,\"channel\":\"Partner\",\"SocialReason\":\"bnVsbA==\"}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://fn-ms-lucy-cx-conversation-log-v1-dev-ol.azurewebsites.net/LucyApi/Respuestas/ObtenerRespuesta?",
+					"protocol": "https",
+					"host": [
+						"fn-ms-lucy-cx-conversation-log-v1-dev-ol",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"LucyApi",
+						"Respuestas",
+						"ObtenerRespuesta"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-initial-data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"IdSite\":5,\"SessionId\":84944,\"Vhur\":30720,\"FromDB\":\"SAP\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apm-common-v1-dev-ol.onelinkbpo.com/lucyapi/get-initial-data",
+					"protocol": "https",
+					"host": [
+						"apm-common-v1-dev-ol",
+						"onelinkbpo",
+						"com"
+					],
+					"path": [
+						"lucyapi",
+						"get-initial-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "new-conversation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Sessionid\":\"84944\",\"Createdon\":\"2024-03-18T09:54:23\",\"Lastupdate\":\"2024-03-18T09:54:23\",\"Channelid\":null,\"Country\":null,\"Account\":null,\"Site\":\"5\",\"Vhur\":\"30720\",\"Clientname\":\"Dannia\",\"Escalated\":null,\"Channel\":\"Partner\"}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fn-ms-lucy-second-level-coversation-v1-dev-ol.azurewebsites.net/api/conversation/new-conversation?",
+					"protocol": "https",
+					"host": [
+						"fn-ms-lucy-second-level-coversation-v1-dev-ol",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"conversation",
+						"new-conversation"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
